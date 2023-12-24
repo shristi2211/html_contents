@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Adding image , gif , audio and videos-->
+
+    <!--
+        The <img> tag is used to embed an image in an HTML page.
+        Images are not technically inserted into a web page; images are linked to web pages. 
+        The <img> tag creates a holding space for the referenced image.
+        
+        The <img> tag has two required attributes:
+
+        src - Specifies the path to the image
+        alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed
+    -->
+    
+    <!--
+        The <video> tag is used to embed video content in a document, such as a movie clip or other video streams.
+        The <video> tag contains one or more <source> tags with different video sources. 
+        The browser will choose the first source it supports.
+    -->
+
+    <!--
+        The <audio> tag is used to embed sound content in a document, such as music or other audio streams.
+        The <audio> tag contains one or more <source> tags with different audio sources. 
+        The browser will choose the first source it supports.
+        The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element.
+    -->
+
+    <img src="plant.jpg " height="300px" weight="300px" alt="plant">
+    <br><hr>
+    <img src="gif.gif" height="300px" weight="300px">
+    <br><hr>
+    <audio controls>
+        <source src="mov_bbb.mp4" type="audio/mpeg">
+    </audio>
+    <br><hr>
+    <video width="320" height="240" controls>
+        <source src="mov_bbb.mp4" type="video/mp4">
+    </video>
+    <br><hr>
+</body>
+</html>
